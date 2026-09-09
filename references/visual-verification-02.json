@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-08",
+  "method": "Browser playback, pause and discrete seeking; screenshots inspected after a separate follow-up call to allow seeking to settle. Ads, posters and transient first-play frames excluded.",
+  "pattern_evidence": [{"pattern_id":"P01","subject":"ode"},{"pattern_id":"P02","subject":"ode"},{"pattern_id":"P02","subject":"dynamics"}],
+  "videos": [
+    {"subject":"ode","title":"Differential equations, a tourist's guide | DE1","url":"https://www.youtube.com/watch?v=p_di4Zn4wz4&t=693s"},
+    {"subject":"dynamics","title":"Beyond the Mandelbrot set, an intro to holomorphic dynamics","url":"https://www.youtube.com/watch?v=LqbZpur38nw&t=400s"}
+  ],
+  "observations": [
+    {"subject":"ode","seconds":693,"observation":"Grid of concrete pendulum states under the title All states; angles vary across columns and velocity arrows across rows."},
+    {"subject":"ode","seconds":698,"observation":"Yellow dot grid on axes labelled angle and angular velocity, replacing the concrete state grid."},
+    {"subject":"ode","seconds":713,"observation":"Single pendulum inset retained with a pink state point and dotted coordinate projection; point is above the horizontal axis and pendulum velocity arrow points right."},
+    {"subject":"ode","seconds":783,"observation":"Pendulum inset labelled Physical, large coordinate plane labelled Abstract; inward spiral and dotted coordinate projections remain visible."},
+    {"subject":"dynamics","seconds":400,"observation":"Comparison matrix labels columns One seed / Pixel corresponds to function and One function / Pixel corresponds to seed; Mandelbrot image and Newton fractal occupy different cells."},
+    {"subject":"dynamics","seconds":415,"observation":"Two planes: left c corresponds to Pixel and z0=0; right c=const and z0 corresponds to Pixel. Left selected parameter approximately -0.50+0.50i; right displays its associated fractal."},
+    {"subject":"dynamics","seconds":425,"observation":"Same panel labels persist. Left parameter approximately -0.08+0.96i; right fractal has changed globally to a branching shape."},
+    {"subject":"dynamics","seconds":435,"observation":"Same panel labels persist. Left parameter approximately -0.75-0.26i; right displays a different disconnected-looking bright pattern. No mathematical disconnectedness claim inferred from pixels."}
+  ],
+  "source_commit":"674b966fbb6cf0307590d27744d186165e8b6a76",
+  "source_symbols":["_2019/diffyq/part1/phase_space.py: VisualizeStates.collapse_grid_into_points, show_state_with_pair_of_numbers, show_evolution_from_a_start_state", "_2021/holomorphic_dynamics.py: ParameterSpaceVsSeedSpace, ClassicJuliaSetDemo, MandelbrotIntro.on_mouse_motion"],
+  "implementation_finding":"ClassicJuliaSetDemo links its right fractal to get_c() through an updater and inherits an on_mouse_motion handler moving c_dot while space is pressed. This supports interactive control capability, not proof that this mechanism was used in the published recording. A batch renderer would need an explicit parameter trajectory.",
+  "limitations":["Selected excerpts in two videos, not full-video viewing.","Discrete observations support semantic correspondence, not exact shot boundaries or frame-exact source alignment.","No independent audio review or learning-effectiveness test.","P12's early example overlaps this clip but its later transfer was not checked; P12 remains unverified."],
+  "saved_frame_files":[]
+}

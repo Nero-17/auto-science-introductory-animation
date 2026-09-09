@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+media/
+output/
+.build/
+*.wav
+*.mp4
+*.onnx

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "A boundary point can disappear",
+    "text": "This point lies on the edge of the blue disk. But will it still lie on the outside when we combine all the disks?",
+    "duration": 8.0,
+    "start_seconds": 0
+  },
+  {
+    "title": "Start with equal-sized disks",
+    "text": "First, give every disk the same radius. Their top points line up. The highlighted point touches the upper edge of the combined region.",
+    "duration": 8.266666666666667,
+    "start_seconds": 8.0
+  },
+  {
+    "title": "Change only the neighboring radii",
+    "text": "Now let the disks grow toward the right. Keep the blue disk and its old top point fixed. A larger neighbor reaches above that point.",
+    "duration": 8.533333333333333,
+    "start_seconds": 16.266666666666666
+  },
+  {
+    "title": "Look closely at the old point",
+    "text": "In this fixed magnified view, the old point is inside the neighboring disk. It is still on its own circle, but it is no longer on the outside of the union.",
+    "duration": 9.733333333333333,
+    "start_seconds": 24.799999999999997
+  },
+  {
+    "title": "Find the new contact",
+    "text": "The outer edge now tilts. On the blue disk, its contact moves to the upper left. The yellow arrow marks the outward direction, perpendicular to that edge.",
+    "duration": 10.066666666666666,
+    "start_seconds": 34.53333333333333
+  },
+  {
+    "title": "Track each contribution",
+    "text": "Follow the same construction across neighboring disks. Each highlighted contact lies on the same local outer edge. Position and direction belong together.",
+    "duration": 9.7,
+    "start_seconds": 44.599999999999994
+  },
+  {
+    "title": "Boundary tracking",
+    "text": "This local illustration motivates tracking position and outward direction together. A propagated boundary candidate can still lie inside the resulting region.",
+    "duration": 12.4,
+    "start_seconds": 54.3
+  }
+]

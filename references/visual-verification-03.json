@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-08",
+  "pattern_evidence": [
+    {
+      "pattern_id": "P13",
+      "subject": "eigenvalues"
+    },
+    {
+      "pattern_id": "P14",
+      "subject": "derivatives"
+    },
+    {
+      "pattern_id": "P15",
+      "subject": "fourier"
+    },
+    {
+      "pattern_id": "P16",
+      "subject": "bayes"
+    },
+    {
+      "pattern_id": "P17",
+      "subject": "convolution"
+    }
+  ],
+  "observations": [
+    {
+      "subject": "eigenvalues",
+      "seconds": 109,
+      "observation": "Yellow vector has left the retained original span line after transformation."
+    },
+    {
+      "subject": "eigenvalues",
+      "seconds": 124,
+      "observation": "Yellow vector remains on its span while the surrounding grid is transformed."
+    },
+    {
+      "subject": "derivatives",
+      "seconds": 488,
+      "observation": "Curve and derivative definition present; secant construction has not yet appeared."
+    },
+    {
+      "subject": "derivatives",
+      "seconds": 498,
+      "observation": "Two separated graph points with horizontal dt, vertical ds and a secant line."
+    },
+    {
+      "subject": "derivatives",
+      "seconds": 508,
+      "observation": "Separation is visually small and the displayed line is close to the local tangent; pause overlay partly covers center."
+    },
+    {
+      "subject": "fourier",
+      "seconds": 379,
+      "observation": "Fixed three-beat signal above; wound graph below left at about 1.35 cycles/second; partial output trace below right."
+    },
+    {
+      "subject": "fourier",
+      "seconds": 394,
+      "observation": "Input signal persists; winding is about 3.48 cycles/second; output curve now has a prominent peak near three."
+    },
+    {
+      "subject": "bayes",
+      "seconds": 555,
+      "observation": "Displayed player time 9:15: full hypothesis rectangle with narrow yellow left part; accessibility seek slider inconsistently reported 565."
+    },
+    {
+      "subject": "bayes",
+      "seconds": 570,
+      "observation": "Evidence subregions retained while excluded region is dimmed; a posterior comparison bar is shown to the right."
+    },
+    {
+      "subject": "convolution",
+      "seconds": 408,
+      "observation": "Top row 1,2,3 and reversed lower row; first output 4 already retained while next alignment is discussed."
+    },
+    {
+      "subject": "convolution",
+      "seconds": 418,
+      "observation": "Rows align 1 with 6, 2 with 5, 3 with 4; expression 1*6+2*5+3*4 appears above."
+    },
+    {
+      "subject": "convolution",
+      "seconds": 423,
+      "observation": "28 has entered the retained output list 4,13,28; lower row slides to the next alignment."
+    }
+  ],
+  "videos": [
+    {
+      "subject": "eigenvalues",
+      "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g"
+    },
+    {
+      "subject": "derivatives",
+      "url": "https://www.youtube.com/watch?v=9vKqVkMQHKk"
+    },
+    {
+      "subject": "fourier",
+      "url": "https://www.youtube.com/watch?v=spUNpyF58BY"
+    },
+    {
+      "subject": "bayes",
+      "url": "https://www.youtube.com/watch?v=HZGCoVF3YvM"
+    },
+    {
+      "subject": "convolution",
+      "url": "https://www.youtube.com/watch?v=KuXjwB4LzSA"
+    }
+  ],
+  "source_commit": "674b966fbb6cf0307590d27744d186165e8b6a76",
+  "caption_commit": "9aef876b0ed62ce4f099c0a2f0e7a52e8d1058c9",
+  "scope": "Five additional videos: selected narration passages, source implementations and actual player frames. Not five full video viewings or five fully read transcripts.",
+  "limitations": [
+    "No independent audio review or pedagogical effectiveness test.",
+    "Bayes 9:15 display and accessibility slider disagreed by 10 seconds; retain discrepancy, do not treat as exact alignment.",
+    "Narrow browser viewport limits small-text checks; source and narration supplement semantics.",
+    "Source correspondence does not prove exact production revision."
+  ]
+}

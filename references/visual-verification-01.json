@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-08",
+  "pattern_id": "P04",
+  "video_title": "But what is the Central Limit Theorem?",
+  "video_url": "https://www.youtube.com/watch?v=zeJD6dqJ5lo&t=548s",
+  "method": "Browser playback and discrete seeking; visually inspected actual player screenshots and player time. Excludes thumbnail and advertisement.",
+  "source_path": "_2023/clt/main.py",
+  "source_symbol": "DiceSumDistributions.construct",
+  "source_commit": "674b966fbb6cf0307590d27744d186165e8b6a76",
+  "observations": [
+    {"seconds": 548, "observation": "Single-die distribution: six equal-height bars, each labelled 1/6, with dice icons."},
+    {"seconds": 555, "observation": "Dice-pair grid is being constructed at upper right; transitional, incomplete grid."},
+    {"seconds": 560, "observation": "Mostly complete blue/red dice-pair grid on right; first pair or pairs move to the sum axis. Original single-die chart remains."},
+    {"seconds": 565, "observation": "Same-sum diagonal highlighted yellow; grouped columns begin forming at lower left."},
+    {"seconds": 570, "observation": "Columns for sums 2 through 7 assembled; yellow-highlighted pairs for sum 8 are in transition from the remaining grid."},
+    {"seconds": 580, "observation": "Completed triangular arrangement of dice-pair columns for sums 2 through 12, with probabilities in units of 1/36. Original uniform distribution retained at upper left."},
+    {"seconds": 585, "observation": "Display expands to distributions for one, two and three dice."}
+  ],
+  "confirmed": ["Actual objects are regrouped into the result diagram.", "Pair colors and identities provide continuity.", "The original distribution remains as a visual reference during construction."],
+  "limitations": ["Discrete sampled frames, not continuous or frame-by-frame motion review.", "Player times are observation points, not verified shot boundaries.", "No independent audio listening or pedagogical effectiveness test.", "Semantic scene correspondence does not prove the inspected source revision generated the published cut."],
+  "saved_frame_files": [],
+  "capture_note": "Screenshots were inspected in the tool interaction. Experimental exported captures were removed because viewport changes produced unrelated page content or incomplete framing; no clean standalone image is claimed."
+}

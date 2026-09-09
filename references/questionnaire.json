@@ -1,0 +1,167 @@
+{
+  "version": "0.1-research",
+  "question_count": 14,
+  "interaction_policy": "Reuse explicit session answers and saved preferences. Infer only where reasonable and record the origin. Ask missing consequential preferences; do not administer all 14 every time. Every question accepts delegate-to-agent and free text.",
+  "questions": [
+    {
+      "id": "purpose",
+      "prompt": "视频主要用于什么场合？",
+      "options": [
+        "科普分享",
+        "课堂教学",
+        "组会或研究展示"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "audience",
+      "prompt": "主要讲给谁看？",
+      "options": [
+        "一般大学生",
+        "有相关基础的学生",
+        "本领域研究者"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "prerequisites",
+      "prompt": "可以默认观众掌握哪些知识？",
+      "options": [
+        "由论文和受众推断",
+        "基础微积分与线性代数",
+        "尽量不预设专业知识"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "takeaway",
+      "prompt": "最希望观众记住什么？",
+      "options": [
+        "由你提炼最重要的结论",
+        "一个关键直觉",
+        "一个应用或现象"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "scope",
+      "prompt": "内容主要覆盖哪里？",
+      "options": [
+        "核心思想加一个代表结果",
+        "全文概览",
+        "指定结果或图表"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "depth",
+      "prompt": "解释到什么深度？",
+      "options": [
+        "直觉为主，必要时少量公式",
+        "直觉和公式并重",
+        "包含关键证明思路"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "duration",
+      "prompt": "目标时长是多少？",
+      "options": [
+        "5–6分钟",
+        "2–3分钟",
+        "8–10分钟"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "language",
+      "prompt": "讲解与字幕使用什么语言？",
+      "options": [
+        "中文讲解与中文字幕",
+        "英文讲解与英文字幕",
+        "分别指定讲解和字幕语言"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "narrative",
+      "prompt": "偏好怎样展开故事？",
+      "options": [
+        "由你按内容选择",
+        "从问题或意外现象开始",
+        "从简单例子逐步搭建"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "pace",
+      "prompt": "希望节奏和信息密度怎样？",
+      "options": [
+        "适中，关键处留停顿",
+        "更舒缓，降低信息密度",
+        "紧凑，保留更多细节"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "voice",
+      "prompt": "偏好怎样的配音？",
+      "options": [
+        "听短样音后选择",
+        "由你选自然清晰的声音",
+        "沿用已保存的声音"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "presentation",
+      "prompt": "画面主要在哪里观看，偏好什么样式？",
+      "options": [
+        "电脑横屏，深色背景",
+        "手机竖屏，大字少元素",
+        "沿用我的画面偏好"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "resources",
+      "prompt": "质量、速度和费用之间怎样取舍？",
+      "options": [
+        "使用已授权的现有资源，均衡处理",
+        "优先质量，先给出所需资源",
+        "优先速度与低费用"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    },
+    {
+      "id": "constraints",
+      "prompt": "哪些内容必须包含、避开，或有传播限制？",
+      "options": [
+        "从已有要求继承，其余无特殊限制",
+        "有必讲或必避内容",
+        "有素材或传播限制"
+      ],
+      "allow_delegate": true,
+      "allow_free_text": true
+    }
+  ],
+  "bgm": {
+    "source": "user_composed_and_supplied",
+    "questionnaire_item": false,
+    "asset_path": null,
+    "policy": "Do not ask the removed BGM preference question or generate/source replacement music. Accept the user-provided file later; missing BGM does not block research, narration or animation. Mixing may adjust level, fades and looping without changing the composition."
+  }
+}
